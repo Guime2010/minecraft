@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C85</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script> <!--importa o arquivo da biblioteca fabricjs-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="bodyBackground">
+	
+	<center>
+		<h2 class="btn-primary">MINECRAFT</h2> <!-- btn-primary classe bootstrap que adiciona fundo azul e fonte branca-->
+
+		<div id="headInfo" class="btn-danger">  <!--btn-danger classe bootstrap que adiciona fundo vermelho e fonte branca-->
+			<h3>Largura atual  = 
+				<span id="currentWidth">30</span>
+			</h3>
+			<h3>Altura atual  = <span id="currentHeight">30</span></h3>
+		</div>
+		<div id="teclas"> 
+			<h4>Legenda</h4>
+			<ul>
+				<li><img class="legenda" src="trunk.jpg"> T </li>
+				<li><img class="legenda" src="dark_green.png"> D </li>
+				<li><img class="legenda" src="light_green.png"> L </li>
+				<li><img class="legenda" src="ground.png"> G </li>
+				<li><img class="legenda" src="wall.jpg"> W </li>
+				<li><img class="legenda" src="yellow_wall.png"> Y </li>
+				<li><img class="legenda" src="unique.png"> U </li>
+				<li><img class="legenda" src="roof.jpg"> R </li>
+				<li><img class="legenda" src="cloud.jpg"> C </li>
+				<li> SHIFT+P para aumentar o bloco</li>
+				<li> SHIFT+M para diminuir o bloco</li>
+			</ul>
+			
+		</div>
+
+		<canvas width="800" height="450" id="myCanvas"></canvas>
+		
+		
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>

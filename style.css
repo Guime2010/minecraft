@@ -1,0 +1,60 @@
+.bodyBackground 
+{
+    background-image: url("https://i.ytimg.com/vi/Dg0IjOzopYU/maxresdefault.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h2
+{
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+	
+ }
+h3
+{
+	display: inline-block;
+}
+span
+{
+	color: black;	
+}
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+#headInfo
+{
+	width: 200px;
+	border-radius: 10px;
+	margin-right: 10px;
+	float: right;
+}
+.legenda{
+	width: 30px;
+}
+li{
+	text-align: justify;
+	margin-bottom: 5px;
+	color: rgb(169, 0, 0);
+	font-weight: bold;
+	
+}
+#teclas{
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+	background-color: rgba(31, 210, 31, 0.206);
+	border: 1px solid #ffffff;
+}
